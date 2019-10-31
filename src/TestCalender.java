@@ -22,7 +22,7 @@ public class TestCalender{
         //blankday
         int totalday=(obj.total(month,dayinfeb));
         if(month==1){
-           blankday=firstday-1;
+           blankday=firstday;
            obj.calender(blankday,(obj.dayinmonth(month, year)));
         }
         else{
